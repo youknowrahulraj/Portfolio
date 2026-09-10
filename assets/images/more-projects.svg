@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400">
+  <rect width="640" height="400" fill="#121216"/>
+  <rect x="1" y="1" width="638" height="398" rx="18" fill="none" stroke="#2b2c32"/>
+  <rect x="150" y="70" width="340" height="230" rx="16" fill="#17181d" stroke="#3a3b43" stroke-width="2"/>
+  <rect x="150" y="70" width="340" height="42" rx="16" fill="#1b1c21"/>
+  <circle cx="178" cy="91" r="6" fill="#ef3340"/>
+  <circle cx="198" cy="91" r="6" fill="#50515a"/>
+  <circle cx="218" cy="91" r="6" fill="#50515a"/>
+  <text x="180" y="150" fill="#ef3340" font-family="Arial,sans-serif" font-size="32" font-weight="700">&lt;/&gt;</text>
+  <rect x="180" y="180" width="180" height="10" rx="5" fill="#45464f"/>
+  <rect x="180" y="204" width="135" height="10" rx="5" fill="#34353d"/>
+  <rect x="180" y="228" width="160" height="10" rx="5" fill="#ef3340"/>
+  <rect x="180" y="252" width="105" height="10" rx="5" fill="#45464f"/>
+  <rect x="405" y="170" width="52" height="52" rx="12" fill="#22232a" stroke="#3a3b43"/>
+  <text x="431" y="205" text-anchor="middle" fill="#f2f2f4" font-family="Arial,sans-serif" font-size="25" font-weight="700">+</text>
+  <rect x="405" y="235" width="52" height="8" rx="4" fill="#ef3340"/>
+  <circle cx="110" cy="115" r="5" fill="#ef3340"/>
+  <circle cx="530" cy="275" r="5" fill="#ef3340"/>
+  <path d="M105 115 C70 150 72 235 125 270" fill="none" stroke="#ef3340" stroke-width="2" stroke-dasharray="5 8"/>
+  <path d="M515 115 C555 150 555 220 515 250" fill="none" stroke="#ef3340" stroke-width="2" stroke-dasharray="5 8"/>
+  <text x="90" y="100" fill="#a4a5ad" font-family="Arial,sans-serif" font-size="16">HTML</text>
+  <text x="505" y="100" fill="#a4a5ad" font-family="Arial,sans-serif" font-size="16">JS</text>
+  <text x="92" y="300" fill="#a4a5ad" font-family="Arial,sans-serif" font-size="16">CSS</text>
+  <text x="505" y="300" fill="#a4a5ad" font-family="Arial,sans-serif" font-size="16">&lt;/&gt;</text>
+</svg>

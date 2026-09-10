@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="More projects and frontend experiments by Rahul Raj.">
+    <title>More Projects — Rahul Raj</title>
+
+    <link rel="stylesheet" href="/css/project.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="shortcut icon" href="/assets/icons/favicon.png" type="image/x-icon">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+
+<body>
+
+    <!-- ================= HEADER ================= -->
+
+    <header class="cert-navbar">
+        <div class="cert-navbar-inner">
+            <a href="../index.html" class="cert-brand">
+                <span class="brand-mark">
+                    <img src="../assets/icons/favicon.png" alt="Rahul Raj">
+                </span>
+                <span>Rahul Raj</span>
+            </a>
+
+            <a href="../index.html" class="back-btn">
+                <i class="fa-solid fa-arrow-left"></i>
+                Back to Portfolio
+            </a>
+        </div>
+    </header>
+
+    <main>
+
+        <!-- ================= HERO ================= -->
+
+        <section class="hero">
+            <div class="container">
+                <div class="eyebrow">My Work</div>
+                <h1>More Projects</h1>
+                <p>
+                    A collection of smaller projects, frontend experiments, and interactive web builds I've created
+                    while learning and exploring the web.
+                </p>
+            </div>
+        </section>
+
+        <!-- ================= PROJECT SECTION ================= -->
+
+        <section class="container">
+
+            <!-- Search -->
+            <div class="project-search">
+                <i class="fa-solid fa-magnifying-glass" aria-hidden="true"></i>
+                <input
+                    type="search"
+                    id="projectSearch"
+                    placeholder="Search projects..."
+                    aria-label="Search projects">
+            </div>
+
+            <!-- Filters -->
+            <div class="filters" aria-label="Project filters">
+                <button class="filter active" data-filter="all">All</button>
+                <button class="filter" data-filter="web">Web</button>
+                <button class="filter" data-filter="javascript">JavaScript</button>
+                <button class="filter" data-filter="ui">UI</button>
+            </div>
+
+            <!-- Projects -->
+            <div class="projects-grid">
+
+                <!-- Web Calculator -->
+                <article
+                    class="project-card"
+                    data-category="javascript web"
+                    data-search="web calculator html css javascript arithmetic basic calculator">
+
+                    <div class="project-media">
+                        <i class="fa-solid fa-calculator"></i>
+                    </div>
+
+                    <div class="project-body">
+                        <h2 class="project-title">Web Calculator</h2>
+                        <p class="project-desc">
+                            A simple browser-based calculator for basic arithmetic operations.
+                        </p>
+
+                        <ul class="tech-tags">
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>JavaScript</li>
+                        </ul>
+
+                        <div class="actions">
+                            <a class="btn btn-primary" href="#">Live demo</a>
+                            <a class="btn btn-ghost" href="#">
+                                <i class="fa-brands fa-github"></i>
+                                Code
+                            </a>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Tic Tac Toe -->
+                <article
+                    class="project-card"
+                    data-category="javascript web"
+                    data-search="tic tac toe game html css javascript interactive browser game">
+
+                    <div class="project-media">
+                        <i class="fa-solid fa-gamepad"></i>
+                    </div>
+
+                    <div class="project-body">
+                        <h2 class="project-title">Tic Tac Toe</h2>
+                        <p class="project-desc">
+                            An interactive browser-based Tic Tac Toe game built with JavaScript.
+                        </p>
+
+                        <ul class="tech-tags">
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>JavaScript</li>
+                        </ul>
+
+                        <div class="actions">
+                            <a class="btn btn-primary" href="#">Live demo</a>
+                            <a class="btn btn-ghost" href="#">
+                                <i class="fa-brands fa-github"></i>
+                                Code
+                            </a>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Counting App -->
+                <article
+                    class="project-card"
+                    data-category="javascript ui"
+                    data-search="counting app counter html css javascript dom manipulation events interactive">
+
+                    <div class="project-media">
+                        <i class="fa-solid fa-hashtag"></i>
+                    </div>
+
+                    <div class="project-body">
+                        <h2 class="project-title">Counting App</h2>
+                        <p class="project-desc">
+                            A small interactive counting project focused on DOM manipulation and events.
+                        </p>
+
+                        <ul class="tech-tags">
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>JavaScript</li>
+                        </ul>
+
+                        <div class="actions">
+                            <a class="btn btn-primary" href="#">Live demo</a>
+                            <a class="btn btn-ghost" href="#">
+                                <i class="fa-brands fa-github"></i>
+                                Code
+                            </a>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- CSS Transform Playground -->
+                <article
+                    class="project-card"
+                    data-category="ui web"
+                    data-search="css transform playground html css ui effects animation transform visual playground">
+
+                    <div class="project-media">
+                        <i class="fa-solid fa-wand-magic-sparkles"></i>
+                    </div>
+
+                    <div class="project-body">
+                        <h2 class="project-title">CSS Transform Playground</h2>
+                        <p class="project-desc">
+                            A visual playground for experimenting with CSS transforms and effects.
+                        </p>
+
+                        <ul class="tech-tags">
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>UI</li>
+                        </ul>
+
+                        <div class="actions">
+                            <a class="btn btn-primary" href="#">Live demo</a>
+                            <a class="btn btn-ghost" href="#">
+                                <i class="fa-brands fa-github"></i>
+                                Code
+                            </a>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Login Pages -->
+                <article
+                    class="project-card"
+                    data-category="web ui"
+                    data-search="login pages authentication html css javascript login form user interface ui">
+
+                    <div class="project-media">
+                        <i class="fa-solid fa-right-to-bracket"></i>
+                    </div>
+
+                    <div class="project-body">
+                        <h2 class="project-title">Login Pages</h2>
+                        <p class="project-desc">
+                            A collection of login UI experiments and authentication-style interfaces.
+                        </p>
+
+                        <ul class="tech-tags">
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>JavaScript</li>
+                        </ul>
+
+                        <div class="actions">
+                            <a class="btn btn-primary" href="#">Live demo</a>
+                            <a class="btn btn-ghost" href="#">
+                                <i class="fa-brands fa-github"></i>
+                                Code
+                            </a>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- UI Interaction Experiments -->
+                <article
+                    class="project-card"
+                    data-category="javascript ui"
+                    data-search="ui interaction experiments html css javascript toggles interactive elements styling">
+
+                    <div class="project-media">
+                        <i class="fa-solid fa-toggle-on"></i>
+                    </div>
+
+                    <div class="project-body">
+                        <h2 class="project-title">UI Interaction Experiments</h2>
+                        <p class="project-desc">
+                            Small UI experiments including toggles, interactive elements, and styling ideas.
+                        </p>
+
+                        <ul class="tech-tags">
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>JavaScript</li>
+                        </ul>
+
+                        <div class="actions">
+                            <a class="btn btn-primary" href="#">View project</a>
+                        </div>
+                    </div>
+                </article>
+
+            </div>
+
+            <!-- No Results -->
+            <div class="no-projects" id="noProjects" hidden>
+                <p>No projects found.</p>
+            </div>
+
+            <!-- Back -->
+            <div class="back">
+                <a href="/index.html">
+                    <i class="fa-solid fa-arrow-left"></i>
+                    Back to Portfolio
+                </a>
+            </div>
+
+        </section>
+    </main>
+
+    <!-- ================= FOOTER ================= -->
+
+    <footer>
+        © 2026 Rahul Raj. All rights reserved.
+    </footer>
+
+    <script src="/js/project.js"></script>
+
+</body>
+</html>

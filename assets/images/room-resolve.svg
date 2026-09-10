@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" role="img" aria-labelledby="t2">
+  <title id="t2">Frontend Playground project preview</title>
+  <rect width="640" height="400" fill="#141417"/>
+  <g fill="none" stroke="#3a3a40" stroke-width="1.5">
+    <rect x="40" y="50" width="150" height="110" rx="8"/>
+    <rect x="230" y="50" width="150" height="110" rx="8"/>
+    <rect x="420" y="50" width="180" height="110" rx="8"/>
+    <rect x="40" y="200" width="260" height="150" rx="8"/>
+    <rect x="340" y="200" width="260" height="150" rx="8"/>
+  </g>
+  <circle cx="115" cy="105" r="18" fill="#E63946"/>
+  <rect x="255" y="90" width="100" height="12" rx="6" fill="#E63946"/>
+  <rect x="255" y="112" width="70" height="12" rx="6" fill="#3a3a40"/>
+  <path d="M440 140 L470 90 L500 140 L530 90 L560 140" fill="none" stroke="#F2F2F2" stroke-width="3" stroke-linejoin="round"/>
+  <rect x="60" y="230" width="220" height="16" rx="8" fill="#3a3a40"/>
+  <rect x="60" y="260" width="150" height="16" rx="8" fill="#3a3a40"/>
+  <rect x="360" y="230" width="60" height="60" rx="12" fill="#E63946" opacity="0.85"/>
+</svg>
