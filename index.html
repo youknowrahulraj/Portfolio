@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Rahul Raj | Web Developer</title>
+<meta name="description" content="Rahul Raj is a Web Developer building modern, responsive, and interactive web experiences. Explore his projects, skills, certificates, and work.">
+<meta name="keywords" content="Rahul Raj, Web Developer, Frontend Developer, B.Tech CSE, JavaScript Developer, Portfolio">
+<meta name="author" content="Rahul Raj">
+<link rel="canonical" href="https://example.com/">
+
+<!-- Open Graph -->
+<meta property="og:type" content="website">
+<meta property="og:title" content="Rahul Raj | Web Developer">
+<meta property="og:description" content="Rahul Raj is a Web Developer building modern, responsive, and interactive web experiences.">
+<meta property="og:image" content="assets/images/project-safarai.svg">
+<meta property="og:url" content="https://example.com/">
+
+<link rel="icon" type="image/svg+xml" href="assets/icons/favicon.svg">
+
+<!-- Fonts: Space Grotesk (headings/wordmark) + Inter (body) + JetBrains Mono (code accents) -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+<!-- Font Awesome -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer">
+
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<a class="skip-link" href="#main">Skip to main content</a>
+
+<!-- ================= NAVBAR ================= -->
+<header class="navbar" id="navbar">
+  <div class="navbar-inner">
+    <a href="#home" class="brand" aria-label="Rahul Raj, home">
+      <span class="brand-mark" aria-hidden="true">RR</span>
+      <span class="brand-name">Rahul&nbsp;Raj</span>
+    </a>
+
+    <nav class="nav-links" id="navLinks" aria-label="Primary">
+      <ul>
+        <li><a href="#home" class="nav-link active-link" data-nav>Home</a></li>
+        <li><a href="#about" class="nav-link" data-nav>About</a></li>
+        <li><a href="#skills" class="nav-link" data-nav>Skills</a></li>
+        <li><a href="#projects" class="nav-link" data-nav>Projects</a></li>
+        <li><a href="#services" class="nav-link" data-nav>Services</a></li>
+        <li><a href="#certificates" class="nav-link" data-nav>Certificates</a></li>
+        <li><a href="#contact" class="nav-link" data-nav>Contact</a></li>
+      </ul>
+    </nav>
+
+    <button class="nav-toggle" id="navToggle" aria-label="Open menu" aria-expanded="false" aria-controls="navLinks">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<main id="main">
+
+  <!-- ================= HERO ================= -->
+  <section class="hero" id="home">
+    <div class="hero-inner">
+      <div class="hero-copy">
+        <p class="hero-kicker">Web Developer</p>
+        <h1 class="hero-title">Hi, I'm Rahul Raj.<br>I build for the web.</h1>
+        <p class="hero-lead">I build modern, responsive, and interactive websites with a focus on clean UI and great user experience.</p>
+        <div class="hero-actions">
+          <a href="#projects" class="btn btn-primary">View my projects</a>
+          <a href="assets/resume/Rahul_Raj_Resume.pdf" class="btn btn-ghost" download>
+            <i class="fa-solid fa-arrow-down-to-bracket" aria-hidden="true"></i> Download resume
+          </a>
+        </div>
+      </div>
+
+      <div class="hero-visual" aria-hidden="true">
+        <div class="editor-window">
+          <div class="editor-titlebar">
+            <span class="dot dot-red"></span><span class="dot dot-yellow"></span><span class="dot dot-green"></span>
+            <span class="editor-filename">rahul.dev.js</span>
+          </div>
+          <pre class="editor-body"><code><span class="tok-key">const</span> <span class="tok-var">developer</span> = {
+  <span class="tok-prop">name</span>: <span class="tok-str">'Rahul Raj'</span>,
+  <span class="tok-prop">role</span>: <span class="tok-str">'Web Developer'</span>,
+  <span class="tok-prop">stack</span>: [<span class="tok-str">'HTML'</span>, <span class="tok-str">'CSS'</span>, <span class="tok-str">'JS'</span>, <span class="tok-str">'React'</span>],
+  <span class="tok-prop">focus</span>: <span class="tok-str">'clean UI'</span>,
+  <span class="tok-fn">build</span>() {
+    <span class="tok-key">return</span> <span class="tok-str">'something worth shipping'</span>;
+  }
+};<span class="caret">&nbsp;</span></code></pre>
+        </div>
+      </div>
+    </div>
+
+    <a href="#about" class="scroll-cue" aria-label="Scroll to About section">
+      <span></span>
+    </a>
+  </section>
+
+  <!-- ================= ABOUT ================= -->
+  <section class="section" id="about">
+    <div class="section-inner about-grid">
+      <div class="about-copy">
+        <h2 class="section-title">About</h2>
+        <p>I'm a B.Tech CSE student with a growing focus on web development. Over the past while, I've built a
+          number of frontend projects, experimenting with layout, interaction, and UI details until they feel right.</p>
+        <p>I'm particularly interested in modern interfaces and interactive web experiences — the kind of small
+          details that make a site feel considered rather than assembled. Alongside that, I'm steadily improving
+          my development and problem-solving skills, moving from static pages toward more dynamic, connected applications.</p>
+      </div>
+      <div class="about-facts">
+        <div class="fact-item">
+          <span class="fact-label">Education</span>
+          <span class="fact-value">B.Tech, Computer Science &amp; Engineering</span>
+        </div>
+        <div class="fact-item">
+          <span class="fact-label">Focus</span>
+          <span class="fact-value">Frontend &amp; interactive UI</span>
+        </div>
+        <div class="fact-item">
+          <span class="fact-label">Currently</span>
+          <span class="fact-value">Strengthening JavaScript, React &amp; DSA</span>
+        </div>
+        <div class="fact-item">
+          <span class="fact-label">Open to</span>
+          <span class="fact-value">Internships &amp; freelance web projects</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= SKILLS ================= -->
+  <section class="section section-alt" id="skills">
+    <div class="section-inner">
+      <h2 class="section-title">Skills</h2>
+      <p class="section-lead">Tools and technologies I use to build and ship web projects.</p>
+
+      <div class="skills-grid">
+        <div class="skill-group">
+          <h3 class="skill-group-title"><i class="fa-solid fa-code" aria-hidden="true"></i> Frontend</h3>
+          <ul class="skill-tags">
+            <li>HTML5</li><li>CSS3</li><li>JavaScript</li><li>Bootstrap</li><li>React</li>
+          </ul>
+        </div>
+        <div class="skill-group">
+          <h3 class="skill-group-title"><i class="fa-solid fa-terminal" aria-hidden="true"></i> Programming</h3>
+          <ul class="skill-tags">
+            <li>C</li><li>C++</li><li>JavaScript</li><li>Python</li>
+          </ul>
+        </div>
+        <div class="skill-group">
+          <h3 class="skill-group-title"><i class="fa-solid fa-toolbox" aria-hidden="true"></i> Tools</h3>
+          <ul class="skill-tags">
+            <li>Git</li><li>GitHub</li><li>VS Code</li><li>Canva</li>
+          </ul>
+        </div>
+        <div class="skill-group">
+          <h3 class="skill-group-title"><i class="fa-solid fa-seedling" aria-hidden="true"></i> Currently learning</h3>
+          <ul class="skill-tags skill-tags-learning">
+            <li>Advanced JavaScript</li><li>React</li><li>Backend Development</li><li>DSA</li><li>Figma</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= PROJECTS ================= -->
+  <section class="section" id="projects">
+    <div class="section-inner">
+      <h2 class="section-title">Projects</h2>
+      <p class="section-lead">A selection of things I've built while learning and experimenting.</p>
+
+      <div class="filter-bar" role="tablist" aria-label="Filter projects by category">
+        <button class="filter-btn is-active" data-filter="all" role="tab" aria-selected="true">All</button>
+        <button class="filter-btn" data-filter="web" role="tab" aria-selected="false">Web</button>
+        <button class="filter-btn" data-filter="javascript" role="tab" aria-selected="false">JavaScript</button>
+        <button class="filter-btn" data-filter="ui" role="tab" aria-selected="false">UI</button>
+      </div>
+
+      <div class="projects-grid" id="projectsGrid">
+
+        <article class="project-card" data-category="web javascript">
+          <div class="project-media">
+            <img src="assets/images/project-safarai.svg" alt="Screenshot placeholder of the SafarAI travel planning website" loading="lazy" width="640" height="400">
+          </div>
+          <div class="project-body">
+            <h3 class="project-title">SafarAI</h3>
+            <p class="project-desc">AI-focused travel website designed to help users discover destinations and plan trips.</p>
+            <ul class="tech-tags">
+              <li>HTML</li><li>CSS</li><li>JavaScript</li><li>AI</li>
+            </ul>
+            <div class="project-actions">
+              <a href="#" class="btn btn-small btn-primary" aria-label="View live demo of SafarAI">Live demo</a>
+              <a href="#" class="btn btn-small btn-ghost" aria-label="View SafarAI source code on GitHub"><i class="fa-brands fa-github" aria-hidden="true"></i> Code</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card" data-category="web ui">
+          <div class="project-media">
+            <img src="assets/images/project-playground.svg" alt="Screenshot placeholder of the Frontend Playground project" loading="lazy" width="640" height="400">
+          </div>
+          <div class="project-body">
+            <h3 class="project-title">Frontend Playground</h3>
+            <p class="project-desc">A collection of frontend experiments, UI components, animations, and mini projects.</p>
+            <ul class="tech-tags">
+              <li>HTML</li><li>CSS</li><li>JavaScript</li>
+            </ul>
+            <div class="project-actions">
+              <a href="#" class="btn btn-small btn-primary" aria-label="View live demo of Frontend Playground">Live demo</a>
+              <a href="#" class="btn btn-small btn-ghost" aria-label="View Frontend Playground source code on GitHub"><i class="fa-brands fa-github" aria-hidden="true"></i> Code</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card" data-category="web ui">
+          <div class="project-media">
+            <img src="assets/images/project-college.svg" alt="Screenshot placeholder of the College Website project" loading="lazy" width="640" height="400">
+          </div>
+          <div class="project-body">
+            <h3 class="project-title">College Website</h3>
+            <p class="project-desc">A college website project with a modern and responsive interface.</p>
+            <ul class="tech-tags">
+              <li>HTML</li><li>CSS</li><li>JavaScript</li>
+            </ul>
+            <div class="project-actions">
+              <a href="#" class="btn btn-small btn-primary" aria-label="View live demo of College Website">Live demo</a>
+              <a href="#" class="btn btn-small btn-ghost" aria-label="View College Website source code on GitHub"><i class="fa-brands fa-github" aria-hidden="true"></i> Code</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card" data-category="javascript ui">
+          <div class="project-media">
+            <img src="assets/images/project-calculator.svg" alt="Screenshot placeholder of the Web Calculator project" loading="lazy" width="640" height="400">
+          </div>
+          <div class="project-body">
+            <h3 class="project-title">Web Calculator</h3>
+            <p class="project-desc">A responsive calculator for basic arithmetic operations.</p>
+            <ul class="tech-tags">
+              <li>HTML</li><li>CSS</li><li>JavaScript</li>
+            </ul>
+            <div class="project-actions">
+              <a href="#" class="btn btn-small btn-primary" aria-label="View live demo of Web Calculator">Live demo</a>
+              <a href="#" class="btn btn-small btn-ghost" aria-label="View Web Calculator source code on GitHub"><i class="fa-brands fa-github" aria-hidden="true"></i> Code</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card" data-category="javascript">
+          <div class="project-media">
+            <img src="assets/images/project-tictactoe.svg" alt="Screenshot placeholder of the Tic Tac Toe game" loading="lazy" width="640" height="400">
+          </div>
+          <div class="project-body">
+            <h3 class="project-title">Tic Tac Toe</h3>
+            <p class="project-desc">Interactive browser-based Tic Tac Toe game.</p>
+            <ul class="tech-tags">
+              <li>HTML</li><li>CSS</li><li>JavaScript</li>
+            </ul>
+            <div class="project-actions">
+              <a href="#" class="btn btn-small btn-primary" aria-label="View live demo of Tic Tac Toe">Live demo</a>
+              <a href="#" class="btn btn-small btn-ghost" aria-label="View Tic Tac Toe source code on GitHub"><i class="fa-brands fa-github" aria-hidden="true"></i> Code</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card" data-category="ui">
+          <div class="project-media">
+            <img src="assets/images/project-login.svg" alt="Screenshot placeholder of the Login Page Collection project" loading="lazy" width="640" height="400">
+          </div>
+          <div class="project-body">
+            <h3 class="project-title">Login Page Collection</h3>
+            <p class="project-desc">A collection of login UI experiments and authentication-style interface designs.</p>
+            <ul class="tech-tags">
+              <li>HTML</li><li>CSS</li><li>JavaScript</li>
+            </ul>
+            <div class="project-actions">
+              <a href="#" class="btn btn-small btn-primary" aria-label="View live demo of Login Page Collection">Live demo</a>
+              <a href="#" class="btn btn-small btn-ghost" aria-label="View Login Page Collection source code on GitHub"><i class="fa-brands fa-github" aria-hidden="true"></i> Code</a>
+            </div>
+          </div>
+        </article>
+
+      </div>
+
+      <p class="filter-empty" id="filterEmpty" hidden>No projects in this category yet.</p>
+    </div>
+  </section>
+
+  <!-- ================= SERVICES ================= -->
+  <section class="section section-alt" id="services">
+    <div class="section-inner">
+      <h2 class="section-title">What I do</h2>
+      <p class="section-lead">Web development services I can help with.</p>
+
+      <div class="services-grid">
+        <div class="service-card">
+          <i class="fa-solid fa-display service-icon" aria-hidden="true"></i>
+          <h3 class="service-title">Responsive website development</h3>
+          <p class="service-desc">Websites that adapt cleanly across mobile, tablet, and desktop screens.</p>
+        </div>
+        <div class="service-card">
+          <i class="fa-solid fa-layer-group service-icon" aria-hidden="true"></i>
+          <h3 class="service-title">Frontend development</h3>
+          <p class="service-desc">Building interfaces with HTML, CSS, and JavaScript, with attention to structure and performance.</p>
+        </div>
+        <div class="service-card">
+          <i class="fa-solid fa-bolt service-icon" aria-hidden="true"></i>
+          <h3 class="service-title">Landing page development</h3>
+          <p class="service-desc">Focused, fast-loading landing pages built around a clear message and call to action.</p>
+        </div>
+        <div class="service-card">
+          <i class="fa-solid fa-wand-magic-sparkles service-icon" aria-hidden="true"></i>
+          <h3 class="service-title">Interactive UI development</h3>
+          <p class="service-desc">Adding thoughtful interactions and micro-animations that support usability.</p>
+        </div>
+        <div class="service-card">
+          <i class="fa-solid fa-arrows-rotate service-icon" aria-hidden="true"></i>
+          <h3 class="service-title">Website redesign</h3>
+          <p class="service-desc">Refreshing outdated interfaces with a cleaner, more modern visual approach.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= CERTIFICATES ================= -->
+  <section class="section" id="certificates">
+    <div class="section-inner">
+      <h2 class="section-title">Certificates</h2>
+      <p class="section-lead">Courses and certifications I've completed.</p>
+
+      <div class="cert-grid">
+        <div class="cert-card">
+          <div class="cert-icon"><i class="fa-solid fa-award" aria-hidden="true"></i></div>
+          <div class="cert-body">
+            <h3 class="cert-name">Web Development Fundamentals</h3>
+            <p class="cert-meta">IBM &middot; 2024</p>
+            <a href="#" class="btn btn-small btn-ghost">View certificate</a>
+          </div>
+        </div>
+        <div class="cert-card">
+          <div class="cert-icon"><i class="fa-solid fa-award" aria-hidden="true"></i></div>
+          <div class="cert-body">
+            <h3 class="cert-name">Responsive Web Design</h3>
+            <p class="cert-meta">Placeholder issuer &middot; Add year</p>
+            <a href="#" class="btn btn-small btn-ghost">View certificate</a>
+          </div>
+        </div>
+        <div class="cert-card">
+          <div class="cert-icon"><i class="fa-solid fa-award" aria-hidden="true"></i></div>
+          <div class="cert-body">
+            <h3 class="cert-name">JavaScript Essentials</h3>
+            <p class="cert-meta">Placeholder issuer &middot; Add year</p>
+            <a href="#" class="btn btn-small btn-ghost">View certificate</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="achievements">
+        <h3 class="achievements-title">Coding &amp; problem solving</h3>
+        <div class="achievements-row">
+          <div class="achv-item"><i class="fa-brands fa-github" aria-hidden="true"></i><span>Active GitHub profile with ongoing project commits</span></div>
+          <div class="achv-item"><i class="fa-solid fa-code-branch" aria-hidden="true"></i><span>Practising data structures &amp; algorithms in C++</span></div>
+          <div class="achv-item"><i class="fa-solid fa-list-check" aria-hidden="true"></i><span>Solving problems on LeetCode to build problem-solving skills</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= CONTACT ================= -->
+  <section class="section section-alt" id="contact">
+    <div class="section-inner contact-grid">
+      <div class="contact-copy">
+        <h2 class="section-title">Contact</h2>
+        <p class="section-lead">Have a project in mind, or an opportunity to discuss? I'd like to hear about it.</p>
+
+        <ul class="contact-links">
+          <li>
+            <a href="mailto:hello@rahulraj.dev">
+              <i class="fa-solid fa-envelope" aria-hidden="true"></i> hello@rahulraj.dev
+            </a>
+          </li>
+          <li>
+            <a href="https://github.com/yourusername" target="_blank" rel="noopener noreferrer">
+              <i class="fa-brands fa-github" aria-hidden="true"></i> github.com/yourusername
+            </a>
+          </li>
+          <li>
+            <a href="https://linkedin.com/in/yourusername" target="_blank" rel="noopener noreferrer">
+              <i class="fa-brands fa-linkedin" aria-hidden="true"></i> linkedin.com/in/yourusername
+            </a>
+          </li>
+        </ul>
+      </div>
+
+      <form class="contact-form" id="contactForm" novalidate>
+        <p class="form-note">This form isn't connected to an email service yet — see the comment at the top of <code>js/script.js</code> to wire it up with Formspree, EmailJS, or your own backend.</p>
+
+        <div class="form-field">
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" autocomplete="name" required aria-describedby="nameError">
+          <span class="form-error" id="nameError" role="alert"></span>
+        </div>
+
+        <div class="form-field">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" autocomplete="email" required aria-describedby="emailError">
+          <span class="form-error" id="emailError" role="alert"></span>
+        </div>
+
+        <div class="form-field">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="5" required aria-describedby="messageError"></textarea>
+          <span class="form-error" id="messageError" role="alert"></span>
+        </div>
+
+        <button type="submit" class="btn btn-primary btn-block">Send message</button>
+
+        <p class="form-status" id="formStatus" role="status" aria-live="polite"></p>
+      </form>
+    </div>
+  </section>
+
+</main>
+
+<!-- ================= FOOTER ================= -->
+<footer class="footer">
+  <div class="footer-inner">
+    <div class="footer-brand">
+      <span class="brand-mark" aria-hidden="true">RR</span>
+      <div>
+        <p class="footer-name">Rahul Raj</p>
+        <p class="footer-role">Web Developer</p>
+      </div>
+    </div>
+
+    <div class="footer-social">
+      <a href="https://github.com/yourusername" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><i class="fa-brands fa-github" aria-hidden="true"></i></a>
+      <a href="https://linkedin.com/in/yourusername" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><i class="fa-brands fa-linkedin" aria-hidden="true"></i></a>
+      <a href="mailto:hello@rahulraj.dev" aria-label="Email"><i class="fa-solid fa-envelope" aria-hidden="true"></i></a>
+    </div>
+
+    <p class="footer-copy">&copy; <span id="year"></span> Rahul Raj. All rights reserved.</p>
+  </div>
+
+  <button class="back-to-top" id="backToTop" aria-label="Back to top">
+    <i class="fa-solid fa-arrow-up" aria-hidden="true"></i>
+  </button>
+</footer>
+
+<script src="js/script.js" defer></script>
+</body>
+</html>
